@@ -1,4 +1,8 @@
-package com.example.pokemon.model;
+package com.example.employee.model;
+
+import lombok.NoArgsConstructor;
+
+import javax.persistence.Entity;
 
 public enum PokeType {
 
@@ -16,7 +20,7 @@ public enum PokeType {
 	PSYCHIC("Psychic"),
 	ROCK("Rock"),
 	ICE("Ice"),
-	GHOST("Ghose"),
+	GHOST("Ghost"),
 	STEEL("Steel"),
 	DARK("Dark"),
 	FIGHTING("Fighting");
@@ -26,7 +30,7 @@ public enum PokeType {
 	PokeType(String displayName) {
 		this.displayName = displayName;
 	}
-
+	
 	public String getDisplayName() {
 		return displayName;
 	}
