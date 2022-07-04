@@ -1,4 +1,4 @@
-package com.example.employee.model;
+package com.example.employee.model.pokemon;
 
 import lombok.NoArgsConstructor;
 
@@ -30,7 +30,7 @@ public enum PokeType {
 	PokeType(String displayName) {
 		this.displayName = displayName;
 	}
-	
+
 	public String getDisplayName() {
 		return displayName;
 	}

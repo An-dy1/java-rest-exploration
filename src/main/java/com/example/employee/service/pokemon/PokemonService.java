@@ -1,13 +1,12 @@
-package com.example.employee.service;
+package com.example.employee.service.pokemon;
 
-import com.example.employee.model.Pokemon;
-import com.example.employee.repository.PokemonJpaRepository;
+import com.example.employee.model.pokemon.Pokemon;
+import com.example.employee.repository.pokemon.PokemonJpaRepository;
 import io.crnk.core.queryspec.QuerySpec;
 import io.crnk.core.repository.ResourceRepositoryBase;
 import io.crnk.core.resource.list.ResourceList;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
 
 import java.util.concurrent.atomic.AtomicLong;
 

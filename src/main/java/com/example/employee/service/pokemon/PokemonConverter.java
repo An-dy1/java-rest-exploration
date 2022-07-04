@@ -1,6 +1,6 @@
-package com.example.employee.service;
+package com.example.employee.service.pokemon;
 
-import com.example.employee.model.PokeType;
+import com.example.employee.model.pokemon.PokeType;
 
 import javax.persistence.AttributeConverter;
 import javax.persistence.Converter;

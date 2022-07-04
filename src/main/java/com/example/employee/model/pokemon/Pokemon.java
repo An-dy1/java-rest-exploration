@@ -1,6 +1,5 @@
-package com.example.employee.model;
+package com.example.employee.model.pokemon;
 
-import com.example.employee.service.PokemonConverter;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import io.crnk.core.resource.annotations.JsonApiId;
 import io.crnk.core.resource.annotations.JsonApiResource;

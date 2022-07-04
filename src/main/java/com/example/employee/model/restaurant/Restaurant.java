@@ -1,4 +1,4 @@
-package com.example.employee.model;
+package com.example.employee.model.restaurant;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import io.crnk.core.resource.annotations.JsonApiId;
@@ -35,5 +35,5 @@ public class Restaurant {
 		this.name = name;
 		this.address = address;
 	}
-	
+
 }

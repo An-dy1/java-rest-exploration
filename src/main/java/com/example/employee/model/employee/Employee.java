@@ -1,4 +1,4 @@
-package com.example.employee.model;
+package com.example.employee.model.employee;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -13,16 +13,16 @@ public class Employee {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name="emp_id")
+	@Column(name = "emp_id")
 	private Long id;
 
-	@Column(name="first_name")
+	@Column(name = "first_name")
 	private String firstName;
 
-	@Column(name="last_name")
+	@Column(name = "last_name")
 	private String lastName;
 
-	@Column(name="email_id")
+	@Column(name = "email_id")
 	private String emailId;
 
 //	public Employee(String firstName, String lastName, String email_id) {

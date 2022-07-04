@@ -1,7 +1,7 @@
-package com.example.employee.service;
+package com.example.employee.service.restaurant;
 
-import com.example.employee.model.Restaurant;
-import com.example.employee.repository.RestaurantJpaRepository;
+import com.example.employee.model.restaurant.Restaurant;
+import com.example.employee.repository.restaurant.RestaurantJpaRepository;
 import io.crnk.core.queryspec.QuerySpec;
 import io.crnk.core.repository.ResourceRepositoryBase;
 import io.crnk.core.resource.list.ResourceList;
