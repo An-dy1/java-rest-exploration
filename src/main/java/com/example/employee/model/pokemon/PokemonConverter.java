@@ -1,4 +1,4 @@
-package com.example.employee.service.pokemon;
+package com.example.employee.model.pokemon;
 
 import com.example.employee.model.pokemon.PokeType;
 
